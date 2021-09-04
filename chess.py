@@ -1,7 +1,10 @@
+import banner
 import menu
 
 
 def start():
+    banner.print_banner()
+
     menu.main_menu()
 
     answer = input('\n > ').lower()
